@@ -1,0 +1,40 @@
+# =============================================================================
+# REQUIREMENTS.TXT - AI Stock Price Prediction System
+# =============================================================================
+# This file lists all Python packages required to run the project.
+# Updated versions for Python 3.13 compatibility.
+# Student: 711524BCS164 | SL.NO: 54
+# =============================================================================
+
+# Yahoo Finance API - Downloads historical stock market data
+# Used to fetch OHLCV (Open, High, Low, Close, Volume) data for any ticker
+yfinance==0.2.40
+
+# TensorFlow - Deep Learning framework for building and training LSTM neural networks
+# NOTE: TensorFlow installation may fail on some Windows systems with Python 3.13
+# If installation fails, use app_simple.py for demo mode without AI predictions
+tensorflow>=2.21.0
+
+# Scikit-learn - Machine Learning utilities
+# Provides MinMaxScaler for normalizing stock prices and metrics for evaluation
+scikit-learn>=1.8.0
+
+# Streamlit - Web application framework for Python
+# Creates the interactive dashboard where users can run predictions
+streamlit>=1.56.0
+
+# Plotly - Interactive visualization library
+# Used to create beautiful, zoomable charts for stock prices and training metrics
+plotly>=5.19.0
+
+# Pandas - Data manipulation and analysis library
+# Handles all data structures (DataFrames) for time series data
+pandas>=2.2.0
+
+# NumPy - Numerical computing library
+# Provides efficient array operations and mathematical functions
+numpy>=2.4.0
+
+# Matplotlib - Plotting library (backup for visualizations)
+# Used alongside Plotly for any additional charting needs
+matplotlib>=3.8.0
