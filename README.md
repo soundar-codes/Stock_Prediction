@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # =============================================================================
 # AI-Based Stock Price Prediction System
 # =============================================================================
@@ -154,3 +155,6 @@ You can predict any stock available on Yahoo Finance. Common examples:
 ## License
 
 This project is created for academic purposes. Feel free to use and modify for educational use.
+=======
+# Stock_Prediction
+>>>>>>> c71211a5b8029be53a3d56ccee4042b3235bc276
